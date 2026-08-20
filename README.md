@@ -1,1 +1,20 @@
 # pvp-tug-of-war-game
+
+This is my repo for my arduino based pvp(player versus player) game of tug of war.   
+Basiclaly there are two buttons, one for each player and a screen oled in the middle to demonstrate how far a long the "rope" is. 
+The faster and better you press the more it goes to your side, and the goal is obiously like in the real game to get the middle of the rope over on yourside just like in real life. 
+
+For the stuff needed, all you need is a arduino, could be any version like r4 or r3, 2 buttons, wires and a oled screen!  
+I also included a buzzer for sound affects! 
+
+BOM
+| Item | Quantity | Estimated Price (USD) | Notes |
+|---|---:|---:|---|
+| Arduino UNO R4 WiFi | 1 | $30.00 | Main microcontroller |
+| 0.96 inch OLED SSD1306 I2C | 1 | $3.00 | 128x64 monochrome OLED display |
+| Push Button | 2 | $0.50 | Player 1 and Player 2 buttons |
+| Passive Buzzer | 1 | $1.00 | Game sound effects |
+| Jumper Wires | 6 | $0.10 | For connecting buttons, buzzer, and OLED |
+| **Total** | **1** | **$34.60** | **Approximate total** |
+
+Demo link: https://www.youtube.com/watch?v=rqrGg-ei5W8 
