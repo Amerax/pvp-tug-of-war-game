@@ -9,6 +9,20 @@ I also included a buzzer for sound affects!
 
 I wanted to orginally make a digital version of a childhood game I use to play and this was perfect for me because it wasn't to complicated and it was fun and I wanted for it to actually be something people would want to play with, with their friends. So I think this was fun. 
 
+**Features**
+-Oled screen for enhanced visualization  
+-Passive buzzer for noise reaction  
+-2 buttons for 2 players 
+-Details and images presented on screen to streamline gameplay
+
+**Uploading the Code**  
+
+1. Open `main.ino` in the Arduino IDE either download from firmware folder the file and open it, or just copy and paste its contents into the ide yourself.  
+2. Connect your Arduino to your computer with a USB cable.  
+3. Select the correct **Board** and **Port** under **Tools**.  
+4. Click **Upload** (→).  
+5. Wait for the upload to finish. The Arduino will automatically restart and run the program. 
+
 Libaries used:
 <Wire.h>  
 <Adafruit_GFX.h>  
