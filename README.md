@@ -7,6 +7,11 @@ The faster and better you press the more it goes to your side, and the goal is o
 For the stuff needed, all you need is a arduino, could be any version like r4 or r3, 2 buttons, wires and a oled screen!  
 I also included a buzzer for sound affects! 
 
+Libaries used:
+<Wire.h>  
+<Adafruit_GFX.h>  
+<Adafruit_SSD1306.h>  
+
 BOM
 | Item | Quantity | Estimated Price (USD) | Notes |
 |---|---:|---:|---|
@@ -16,5 +21,21 @@ BOM
 | Passive Buzzer | 1 | $1.00 | Game sound effects |
 | Jumper Wires | 6 | $0.10 | For connecting buttons, buzzer, and OLED |
 | **Total** | **1** | **$34.60** | **Approximate total** |
+
+Pin Map 
+
+| Component | Arduino Pin |
+|---|---|
+| Player 1 Button | D2 |
+| Player 2 Button | D3 |
+| Passive Buzzer (+) | D13 |
+| Passive Buzzer (−) | GND |
+| OLED SDA | SDA |
+| OLED SCL | SCL |
+| OLED VCC | 5V |
+| OLED GND | GND |
+| LED Matrix | Built-in |
+
+Images: 
 
 Demo link: https://www.youtube.com/watch?v=rqrGg-ei5W8 
