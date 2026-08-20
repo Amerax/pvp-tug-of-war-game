@@ -7,6 +7,8 @@ The faster and better you press the more it goes to your side, and the goal is o
 For the stuff needed, all you need is a arduino, could be any version like r4 or r3, 2 buttons, wires and a oled screen!  
 I also included a buzzer for sound affects! 
 
+I wanted to orginally make a digital version of a childhood game I use to play and this was perfect for me because it wasn't to complicated and it was fun and I wanted for it to actually be something people would want to play with, with their friends. So I think this was fun. 
+
 Libaries used:
 <Wire.h>  
 <Adafruit_GFX.h>  
